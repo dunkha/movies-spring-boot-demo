@@ -13,6 +13,6 @@ public class MoviesJSONParserTest {
     public void parseMovies() {
         Set<Movie> movies = parser.parseMovies();
 
-        assertEquals(3, movies.size());
+        assertEquals(20, movies.size());
     }
 }
